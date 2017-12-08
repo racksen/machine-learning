@@ -373,10 +373,10 @@ print(pca_results['Explained Variance'].cumsum())
 # * 70.7% of variance explained in total by the 1st and 2nd Principle Components
 # * 93.1% of variance explained in total by the firt four Principle Components
 # * PCA Dimensional Analysis
-#     - It seems the first dimension reveals that the customer spends almost equal amount on "Fresh" and "Frozen" categories. So the customer may be a "Restaurant" or "Whole sale retailer of fresh and frozen vegetables".  
-#     - The second dimension explaines 26.4% variance with negatively weighted on all the features. Out of it "Fresh", "Frozen" and "Delicatessen" have some considerable spending. So it may represent the customer may have "Restaurent" .
-#     - The third dimension further explains that most of the spending in ""Delicatessen", "Frozen" and "Milk". So it may represent the customer may have may have "Restaurent".
-#     - The 4th dimension as most of the spending in "Frozen" and "Detergents_Paper" category. So it may represent the customer as some "Retail Shop"
+#     - The first dimension reveals that the customer spends most on "Detergents_Paper", "Grocery" and "Milk" categories. So the customer may be a "Restaurant" or "Hotel" or "Deli".  
+#     - The second dimension explaines 26.4% variance with negatively weighted on all the features. Out of it "Fresh", "Frozen" and "Delicatessen" have highspending. So it may represent the customer may have "Restaurent" kind of business .
+#     - The third dimension explains that most of the spending in ""Delicatessen", "Frozen" and "Milk". So again, the customer may belongs to "Restaurent" kind of business segment.
+#     - The 4th dimension as most of the spending in "Frozen", "Detergents_Paper" and "Delicatessen" category. It could be a "Restaurant" or "Grocery or Retail Shop" kind of business.
 # 
 
 # ### Observation
