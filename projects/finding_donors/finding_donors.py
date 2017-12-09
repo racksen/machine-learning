@@ -341,6 +341,7 @@ print("sklearn metrics: [Accuracy score: {:.4f}, F-score: {:.4f}]".format(accura
 # - ** Why this model chosen **
 #     - As we have binary classification problem, Support Vector Machines become a good candidate as a model. 
 #     - They're able to fit data well using the kernel trick and produce accurate results.
+# 
 # ### Ensamble(Gradient Boosting)
 # - ** Real-World App **
 #     * Gradient boosting can be used in the field of learning to rank. 
